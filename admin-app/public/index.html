@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="shortcut icon" href="/assets/favicon.png" />
+    <link rel="stylesheet" href="/build/bundle.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/assets/styles/tailwind.css" />
+    <title>Admin Dashboard</title>
+
+    <script>
+      if (process === undefined) {
+        var process = { env: {} };
+      }
+    </script>
+    <script defer src="/build/bundle.js"></script>
+  </head>
+
+  <body class="text-blueGray-700 antialiased">
+    <noscript>
+      <strong
+        >We're sorry but notus-svelte doesn't work properly without
+        JavaScript enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
